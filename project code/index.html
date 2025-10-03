@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/30792213b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HOTEL</title>
+</head>
+<body>
+    <section class="hero-section">
+<div class="hero-text">
+<h1 style="margin-bottom: 10px;">Welcome to Paradise Hotel</h1>
+<p style=" margin-top: 10px;">we provide rooms at a very good price along with great amenities to make your living experience awesome</p>
+<button class="book-button">Book</button>
+</div>
+</section>
+<h1 class="about-heading">About US</h1>
+<section class="about-section">
+    
+    <div class="about-us">
+        <p style="text-align:justify;">A hotel is a commercial establishment that offers short-term paid lodging, providing rooms with amenities such as beds, bathrooms, and often services like food, drinks, and laundry, catering to travelers and tourists. Hotels vary widely in size and price, from basic accommodations to luxurious resorts with amenities like pools, spas, and conference facilities. </p>
+   <br>
+        <p style="text-align:justify;">Rooms include essential furnishings like beds and bathrooms, with larger hotels offering additional comforts such as televisions, refrigerators, and private seating. </p>
+   <button class="know-button" >know more...</button>
+</div>
+<div class="amenities">
+    <h3>Amenities we have: </h3>
+    
+    <ul>
+        <li><i class="fa-solid fa-wifi"> </i>High speed internet</li>
+        <li><i class="fa-solid fa-utensils"> </i>Complementary breakfast</li>
+        <li><i class="fa-solid fa-person-swimming"> </i>Swimming pool</li>
+        <li><i class="fa-solid fa-dumbbell"> </i>Gym</li>
+        <li><i class="fa-solid fa-mug-saucer"> </i>cafeteria</li>
+    </ul>
+</div>
+</section>
+<h1 class="room-heading">Room Types</h1>
+<br>
+<section class="room-type-container">
+    <div class="room-images">
+        <img src="room.jpg" alt="room-image">
+    </div>
+    <div class="room-list">
+        <h3>Single Occupancy Room</h3>
+        <p style="text-align:justify;">Hotel room images show the interior of accommodations for travelers, featuring beds, bathrooms, and basic amenities like desks and TVs, with variations ranging from standard single rooms to larger suites and luxury options.</p>
+       <br>
+        <h3>Family Room</h3>
+        <p style="text-align:justify;">Common room types include Standard rooms with basic amenities, Deluxe rooms with more space or upgrades, and Suites with separate living and sleeping areas. Luxury rooms offer high-end furnishings.</p>
+
+        <br>
+        <h3>Duplex Room</h3>
+        <p style="text-align:justify;">Deluxe rooms with more space or upgrades, and Suites with separate living and sleeping areas. Luxury rooms offer high-end furnishings and prime views, while specialized rooms can include kitchenettes or be designed for accessibility. 
+    </p><br>
+    </div>
+    
+</section>
+<!-- <div > -->
+    <button class="help-button">Need help?</button>
+<!-- </div> -->
+<div class="form-heading">
+
+<h1 style="text-align:center;">Fill the form for booking the Room</h1>
+</div>
+<section class="form-container">
+    <form>
+        <div class="from-group">
+            <label for="name">Full Name: </label><br>
+            <input type="text" id="name" required>
+        </div>
+             <br>
+        <div class="from-group">
+            <label for="email">Email id: </label><br>
+            <input type="email" id="email" required>
+        </div>
+             <br>
+        <div class="from-group">
+            <label for="booking-date">Date Of Booking</label><br>
+            <input type="date"  id="booking-date" required>
+        </div>
+       <br>
+        <div class="from-group">
+            <label for="room-label">Select Room Type</label><br>
+            <select name="room-type" id="room-type" required>
+            <option value= "selected disabled">Select..</option>
+            <option value="single room" required>Single Room</option>
+            <option value="family room" required>Family Room</option>
+            <option value="duplex room" required>Duplex Room</option>
+            </select>
+        </div>
+        <br>
+       <input type="Submit" value="Book">
+    </form>
+</section>
+</body>
+</html>
